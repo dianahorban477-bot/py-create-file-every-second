@@ -2,7 +2,7 @@ from datetime import datetime
 from time import sleep
 
 
-def main():
+def main() -> None:
     while True:
         current_time = datetime.now()
         name_of_current_time = current_time.strftime("%Y-%m-%d %H:%M:%S")
